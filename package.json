@@ -1,0 +1,27 @@
+{
+  "name": "google_oauth",
+  "version": "1.0.0",
+  "description": "A manual implementation of Google OAuth without using any third party packages.",
+  "keywords": [
+    "google",
+    "oauth"
+  ],
+  "license": "ISC",
+  "author": "Akash",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.1",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3"
+  }
+}
